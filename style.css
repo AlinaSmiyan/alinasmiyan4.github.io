@@ -1,0 +1,40 @@
+table {
+    display:flex;
+    background-color:#FFFFFF;
+    border: 2px solid #000000;
+    max-width: 500px;
+    max-height: 550px;
+    order:2;
+    }
+    .header {
+    background-color:#8fcfdf;
+    height: 100px;
+    padding-top:20px;
+    }
+    
+    .nav {
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(278, 47%, 85%);
+    max-width: 900px;
+    margin: 0 auto;
+    }
+    .logo {
+    max-width:150px;
+    float:left;
+    margin:auto;
+    }
+    .menu {
+    max-width:960px;
+    text-align: center;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(278, 47%, 85%);
+    padding-top:20px;
+    }
+    .footer {
+    background-color:#90d3df;
+    height: 70px;
+    font-size: 40px;
+    }

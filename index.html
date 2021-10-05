@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+	<title>Список</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+	<div id="background">
+   <div class="container-fluid center-top ">
+    <header class="row d-flex flex-row justify-content-center">
+    <div class="d-flex flex-row align-items-center justify-content-around justify-content-md-start col-md-9 px-md-4 h-100">
+  <img class="mr-md-2 border-0" id="logo" src="logotip.jpg" alt="logotip" height="70" >
+        <div class="text-body" id="name">Кошки</div></div>
+  </header>
+   <nav class="row d-flex flex-row justify-content-center">
+      <div class="col-md-9 px-md-4 bg-danger mt-3">
+        <div class="d-flex flex-column flex-md-row justify-content-around py-2">
+          <div class="menu">
+      <a class="fa" href="https://lapkins.ru/cat/persidskaya-koshka/" > Персидская порода</a>
+      <a class="fa" href="https://zooqi.by/social/porody/vybiraem-sfinksa-vse-o-porode-ob-uhode-i-osobennostah-haraktera">Сфинксы </a>
+      <a class="fa" href="https://4lapy.ru/articles/meyn-kun-poroda-koshek-new/" > Мейн-кун </a>
+</div>
+</div>
+</nav>
+  <p><a id="links"></a></p>
+	  <div class="row d-flex flex-row justify-content-center">
+      	<div class="col-md-9">
+	  		<div class="links d-flex flex-column">
+				<div id="reffers">
+    <ol class="ml-md-4">
+
+ <div class="nav ">
+  <h1>Список гиперссылок</h1>
+	<a href="http://example.com" target="_blank">Абсолютная гиперссылка на главную страницу сайта example.com</a><br>
+
+	<a href="https://example.com/" target="_blank">Абсолютная на главную сайта example.com в протоколе https</a><br>
+
+	<a href="ftp://ftp.redcom.ru/" target="_blank">Ссылка на файл на сервере FTP без авторизации</a><br>
+
+	<a href="ftp://user:pass123@tavalik.ru" target="_blank">Ссылка на файл на сервере FTP с авторизацией</a><br>
+
+	<a href="http://www.example.com/about" target="_blank">Ссылка на фрагмент страницы некоторого сайта</a><br>
+
+	<a href="#yakor">Ссылка на фрагмент текущей страницы</a><br>
+
+	<a href="https://www.wildberries.ru/catalog/0/search.aspx?search.aspx?search=корма%20для%20дегу&sort=popular" target="_blank">Ссылка с двумя параметрами в URL</a><br>
+
+	Список ссылок основной навигации сайта с подписями title
+<ul>
+	<a href="web1.html" title="Главная страница" target="_blank">Главная страница</a><br>
+	<a href="" title="Обновить странницу">Обновить</a><br>
+  <a href="../web1.html" title="Относительная ссылка на страницу в каталоге уровнем выше текущего" target="_blank">Относительная ссылка на страницу в каталоге уровнем выше текущего</a><br>
+</ul>
+	<a>Ссылка без href</a><br>
+
+	<a href="" target="_blank">Ссылка с пустым href</a><br>
+
+	<a href="http://example.ru" rel="nofollow" target="_blank">Ссылка, по которой запрещен переход поисковикам</a><br>
+
+	<!--noindex--><a href="http://example.ru" target="_blank">Ссылка, запрещенная для индексации поисковиками</a><!--/noindex--><br>
+
+	<p>Контекстная ссылка в тексте <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BB%D0%BB%D0%B0" target="_blank">абзаца</a></p><br>
+
+<a href="squirrel.jpg"><img src="squirrel.jpg" width="30" height="30" >Ссылка-изображение</a><br>
+
+<img src="https://101kote.ru/upload/medialibrary/365/meyn_kun8.jpg" width="500" height="400" alt="Ссылки из прямоугольной и круглой областей картинки (HTML-тег map)" usemap="#db1272312e6f565c9c95fe4ef4423779"/>
+	<map name="каракал">
+	<area shape="rect" coords="0,0,300,200" href="https://www.8lap.ru/section/ukhod-za-koshkami/meyn-kun-v-kvartire-kak-ego-soderjat/" alt="rect" title="каракал"/>
+	<area shape="circle" coords="250,300,75" href="http://www.veterinar.ru/animals/6/143/" alt="circle" title="рысь"/>
+	</map><br>
+	<a href="web1.html" target="_blank">Относительная ссылка на страницу в текущем каталоге</a><br>
+
+	<a href="about/about.html" target="_blank">Относительная ссылка на страницу в каталоге about</a><br>
+
+	<a href="../web1.html" target="_blank">Относительная ссылка на страницу в каталоге уровнем выше текущего</a><br>
+
+	<a href="../../web1.html" target="_blank">Относительная ссылка на страницу в каталоге двумя уровнями выше</a><br>
+
+	<a href="/web1.html" target="_blank">Сокращенная ссылка на главную</a></li></br>
+
+	<a href="demo.html" target="_blank">Cсылка на внутреннюю страницу</a><br>
+
+<div class="col-12 col-lg-7 mx-lg-auto order-lg-1 order-sm-2">
+ <h2>Характеристика порд котов</h2>
+        <table>
+                <tr>
+                  <th>Порода </th>
+                  <th>Рост(см в холке)</th>
+                 <th>Вес(кг)</th>
+                 <th>Продолжительность жизни в годах </th>
+
+                </tr>
+                <tr>
+                  <td colspan="2">Персы 25-38 </td>
+                  <td>7</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="ncet">Мейн-кун 40  </td>
+                  <td class="ncet">9</td>
+                  <td class="ncet">12</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Сфинксы 25-30</td>
+                  <td>5</td>
+                  <td>15</td>
+                  
+                </tr>
+                <tr>
+                  <td colspan="2">Сиамская 23-25 </td>
+                    <td>7</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Цыганская упряжная порода 135-160</td>
+                    <td>240-700</td>
+                    <td>29</td>
+                     </tr>
+        </table>
+
+<div class="form">
+  <form method="post">
+
+<h1><label> Имя: <input type = "text"> </label></h1> 
+<h1><label> Email: <input type = "email:"> </label></h1>
+<h4> <label> Дата рождения: <input type = "date"> </label> </h4>
+Пол:<br />
+      <label><input type="radio" 
+        name="radio-group-1" value="Значение1" />
+        женский</label>	
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        мужской</label><br />
+Колличество конечностей:<br />
+      <label><input type="radio" 
+        name="radio-group-1" value="Значение1" />
+         1</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        2</label><br />
+<label><input type="radio" 
+        name="radio-group-1" value="Значение3" />
+         3</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение4" />
+        4</label><br />
+<h4> <label Способности:="Способности:">Способности:</label> </h4>
+<select name="Способности:">
+<option value= "слышать и видеть будущее">слышать и видеть будущее</option>
+<option value="трансмутицая">трансмутация</option>
+<option value="не старение">не старение</option>
+<option value="уход из материального мира по собственному желанию">уход из материального мира по собственному желанию</option>
+<option value="понимание языка животных">понимание языка животных</option>
+</select>
+<h4><label> Биография :<textarea> </textarea> </label> </h4>
+</fieldset>
+
+C контрактом ознакомлен:<br />
+      <label><input type="checkbox" 
+        name="radio-group-1" value="Значение1" />
+        </label>
+<P>
+<input type ="submit" value= "Отправить">
+    
+    <a id="yakor"> </a>
+    </div>
+</form>
+</div>
+        <div class="footer ">(с)Смиян Алина </div>
+  </body>
+</html>
